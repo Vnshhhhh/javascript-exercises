@@ -1,0 +1,92 @@
+.hello-1{
+    border-style:solid;
+    border-radius: 10px;
+    background-color: rgb(50, 62, 200);
+    color: white;
+    border:none;
+    width: 100px;
+    height:  40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.hello-1:hover{
+    color:rgb(50, 62, 200); 
+    background-color: white;
+    transition: 1s;
+
+
+}
+.hello-2{
+    border-style:solid;
+    border-radius: 10px;
+    background-color: rgb(171, 9, 9);
+    color: white;
+    border:none;
+    width: 100px;
+    height:  40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.hello-2:hover{
+    color: rgb(171, 9, 9); 
+    background-color: white;
+    transition: 1s;
+
+
+}
+.hii{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.added{
+    border-style:solid;
+    border-radius: 10px;
+    background-color: rgb(231, 208, 36);
+    color: white;
+    border:none;
+    width: 100px;
+    height:  40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.buy-now{
+    border-style:solid;
+    border-radius: 10px;
+    background-color: rgb(173, 130, 45);
+    color: white;
+    border:none;
+    width: 100px;
+    height:  40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
