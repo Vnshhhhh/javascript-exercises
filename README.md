@@ -1,5 +1,6 @@
-﻿# javascript-exercises
- learning javascript through exercises trails and errors , looking forward for learning more
+<﻿h1># javascript-exercises </h1>
+ <P>learning javascript through exercises trails and errors , looking forward for learning more</P>
+<p>
 1.calculator (using basic javascript and html for structure)
 2.rock-paper-scissors game(using basic javascript with contional statements)
 3.numbers and maths
@@ -14,3 +15,4 @@ logical operators
 )
 9.truthy an falsy values
 10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
+</p>
