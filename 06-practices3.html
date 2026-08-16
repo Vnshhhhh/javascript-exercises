@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+</head>
+
+<body>
+
+    <button onclick="
+        let randomMove = Math.random();
+        let computerMove = '';
+
+        if (randomMove < 0.5) {
+            computerMove = 'heads';
+        } else {
+            computerMove = 'tails';
+        }
+
+        console.log(computerMove);
+
+        if (computerMove === 'heads') {
+            console.log('you win');
+        } else {
+            console.log('you lose');
+        }
+    ">
+        Heads
+    </button>
+
+    
+    <button onclick="
+        let randomMove = Math.random();
+        let computerMove = '';
+
+        if (randomMove < 0.5) {
+            computerMove = 'heads';
+        } else {
+            computerMove = 'tails';
+        }
+
+        console.log(computerMove);
+
+        if (computerMove === 'heads') {
+            console.log('you loose');
+        } else {
+            console.log('you win');
+        }
+    ">
+        tails
+    </button>
+
+</body>
+</html>
