@@ -12,3 +12,5 @@ conditional operators
 comparison operators
 logical operators
 )
+9.truthy an falsy values
+10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
