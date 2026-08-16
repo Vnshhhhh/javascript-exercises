@@ -1,9 +1,4 @@
- <h1 style="font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-font-weight: bold;
-color: crimson;
-text-align: center;"
-># javascript-exercises </h1>
+ <h1># javascript-exercises </h1>
  <P style=" font-size:15px; 
  font-weight: 500;
  text-align: center;">
