@@ -1,16 +1,36 @@
-﻿# javascript-exercises
- learning javascript through exercises trails and errors , looking forward for learning more
-1.calculator (using basic javascript and html for structure)
-2.rock-paper-scissors game(using basic javascript with contional statements)
-3.numbers and maths
-4.strings
-5.using html css and javascript together
-6.Vairiables
+<h1>﻿# javascript-exercises</h1>
+ <h3>learning javascript through exercises trails and errors , looking forward for learning more</h3>
+<p>
+ 1.calculator (using basic javascript and html for structure)
+</p>
+<p>
+ 2.rock-paper-scissors game(using basic javascript with contional statements)
+</p>
+<p>
+ 3.numbers and maths
+</p>
+<p>
+ 4.strings
+</p>
+<p>
+ 5.using html css and javascript together
+</p>
+<p>
+ 6.Vairiables
+</p>
+<p>
 7.boolean values
-8.operators(
+</p>
+<p>
+ 8.operators(
 conditional operators
 comparison operators
 logical operators
 )
-9.truthy an falsy values
-10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
+</p>
+<p>
+ 9.truthy an falsy values
+</p>
+<p>
+ 10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
+</p>
