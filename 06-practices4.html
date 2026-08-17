@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ternary use case</title>
+ </head>
+ <body>
+    <button
+    onclick="
+    let randomNum = Math.random();
+    let computerMove =randomNum <0.5 ? 'Heads' : 'Tails';
+
+    console.log( 'computer:'+ computerMove);
+
+    let result =computerMove === 'Heads' ? 'you win' : 'you lose';
+    console.log('result:' + result);
+    
+    "
+    >Heads</button>
+
+     <button
+    onclick="
+    let randomNum = Math.random();
+    let computerMove =randomNum >0.5 ? 'Tails' : 'heads';
+
+    console.log( 'computer:'+ computerMove);
+
+    let result =computerMove === 'Tails' ? 'you win' : 'you lose';
+    console.log('result:' + result);
+    
+    "
+    >Tails</button>
+    
+ </body>
+ </html>
