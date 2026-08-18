@@ -28,6 +28,7 @@ comparison operators
 logical operators
 )
 </p>
+<p>functions and parameters</p>
 <p>
  9.truthy an falsy values
 </p>
