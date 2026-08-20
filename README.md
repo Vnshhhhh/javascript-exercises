@@ -35,3 +35,4 @@ logical operators
 <p>
  10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
 </p>
+<p>obejects</p>
