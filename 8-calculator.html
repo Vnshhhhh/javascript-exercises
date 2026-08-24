@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black & White Calculator</title>
+    <title>  Calculator</title>
 
     <style>
         * {
@@ -151,17 +151,17 @@
 
     <script>
 
-        // Calculator Object
+    
         const calculator = {
 
             currentNumber: '',
             previousNumber: '',
             operator: null,
 
-            // Add number to display
+         
             addNumber: function(number) {
 
-                // Prevent multiple decimal points
+               
                 if (number === '.' && this.currentNumber.includes('.')) {
                     return;
                 }
@@ -172,15 +172,13 @@
             },
 
 
-            // Choose mathematical operator
+             
             chooseOperator: function(operator) {
 
                 if (this.currentNumber === '') {
                     return;
                 }
-
-                // If calculation is already waiting,
-                // calculate it first
+ 
                 if (this.previousNumber !== '') {
                     this.calculate();
                 }
@@ -195,7 +193,7 @@
             },
 
 
-            // Perform calculation
+         
             calculate: function() {
 
                 if (
@@ -212,7 +210,7 @@
                 let result;
 
 
-                // Object containing operations
+                 
                 const operations = {
 
                     '+': function(a, b) {
@@ -254,7 +252,7 @@
             },
 
 
-            // Clear calculator
+             
             clear: function() {
 
                 this.currentNumber = '';
@@ -265,7 +263,7 @@
             },
 
 
-            // Delete last number
+     
             delete: function() {
 
                 this.currentNumber =
@@ -275,7 +273,7 @@
             },
 
 
-            // Update display
+        
             updateDisplay: function() {
 
                 const display =
@@ -297,8 +295,7 @@
             }
         };
 
-
-        // Keyboard support
+ 
         document.addEventListener('keydown', function(event) {
 
             const key = event.key;

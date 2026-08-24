@@ -36,3 +36,4 @@ logical operators
  10.shortcut of iselse statements (tarnary operators ,gaurd operators and default operators)
 </p>
 <p>obejects</p>
+<p> calculator  using basic html, css and javasciript</p>
