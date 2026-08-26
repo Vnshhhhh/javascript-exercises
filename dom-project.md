@@ -71,3 +71,16 @@ Is text "Subscribe"?
 
 
 >>>>>>> 039b643 (update dom project notes)
+
+
+# Amazon Shipping Calculator using DOM
+
+## Steps for Amazon Shipping Counter using DOM (Document Object Model)
+
+When we click the button:
+
+1. Get the text/value from the text box.
+2. Convert the value into a number.
+3. If the amount is less than **$40**, add **$10** shipping charges.
+4. Calculate the final total.
+5. Display the total on the webpage using the DOM.
