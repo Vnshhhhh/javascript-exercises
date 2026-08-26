@@ -1,8 +1,4 @@
- # JavaScript Exercises
-
-> Learning JavaScript through exercises, trials, and errors — looking forward to learning more and building better projects.
-
-## 📚 Topics Covered
+ ## 📚 Topics Covered
 
 1. **Calculator** — Using basic JavaScript and HTML for structure
 2. **Rock Paper Scissors** — Using JavaScript and conditional statements
@@ -33,13 +29,8 @@
     - Same reference
     - Different reference
 21. **Object Shortcuts**
-
-## 🎯 Goal
-
-The goal of this repository is to strengthen my JavaScript fundamentals by solving exercises, experimenting with code, making mistakes, debugging them, and gradually building more complex projects.
-
-## 🚀 Learning Approach
-
-**Learn → Practice → Make Mistakes → Debug → Understand → Build**
-
-More exercises and projects will be added as I continue learning JavaScript.
+22. **DOM (Document Object Model)**
+    - Selecting HTML elements
+    - Modifying elements
+    - Handling user interactions
+    - Updating webpage content with JavaScript
