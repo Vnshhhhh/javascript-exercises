@@ -1,86 +1,33 @@
-<<<<<<< HEAD
-# JavaScript Process
+ # JavaScript Process
 
-## Process for JavaScript
+## 1. Algorithm
 
-### 1. Figure out what steps we need (Algorithm)
-Before writing code, first break the problem into simple logical steps.
+Break the problem into simple logical steps before writing code.
 
-### 2. Convert these steps into code
-After creating the algorithm, convert each step into JavaScript code.
+## 2. Convert to Code
 
----
-
-## Example: Subscribe Button
-
-### Steps / Algorithm
-
-When we click the **Subscribe** button:
-
-1. If the button text is `"Subscribe"`:
-   - Change it to `"Subscribed"`.
-
-2. Otherwise:
-   - Change it back to `"Subscribe"`.
-
-### Logic
-
-```text
-Click button
-      ↓
-Is text "Subscribe"?
-   ↙          ↘
- YES           NO
-  ↓             ↓
-"Subscribed"  "Subscribe"
-=======
-< # JavaScript Process
-
-## Process for JavaScript
-
-### 1. Figure out what steps we need (Algorithm)
-Before writing code, first break the problem into simple logical steps.
-
-### 2. Convert these steps into code
-After creating the algorithm, convert each step into JavaScript code.
+Convert each step of the algorithm into JavaScript.
 
 ---
 
-## Example: Subscribe Button
+## Exercise 1: Subscribe Button
 
-### Steps / Algorithm
+### Algorithm
 
-When we click the **Subscribe** button:
+1. Check the button text.
+2. If it is `"Subscribe"`, change it to `"Subscribed"`.
+3. Otherwise, change it back to `"Subscribe"`.
 
-1. If the button text is `"Subscribe"`:
-   - Change it to `"Subscribed"`.
+---
 
-2. Otherwise:
-   - Change it back to `"Subscribe"`.
+## Exercise 2: Amazon Shipping Calculator
 
-### Logic
+### Algorithm
 
-```text
-Click button
-      ↓
-Is text "Subscribe"?
-   ↙          ↘
- YES           NO
-  ↓             ↓
-"Subscribed"  "Subscribe"
+When the button is clicked:
 
-
->>>>>>> 039b643 (update dom project notes)
-
-
-# Amazon Shipping Calculator using DOM
-
-## Steps for Amazon Shipping Counter using DOM (Document Object Model)
-
-When we click the button:
-
-1. Get the text/value from the text box.
-2. Convert the value into a number.
-3. If the amount is less than **$40**, add **$10** shipping charges.
-4. Calculate the final total.
-5. Display the total on the webpage using the DOM.
+1. Get the amount from the text box.
+2. Convert it to a number.
+3. If the amount is less than **$40**, add **$10** shipping.
+4. Calculate the total.
+5. Display the total on the page using the DOM.
