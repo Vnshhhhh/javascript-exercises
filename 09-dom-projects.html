@@ -18,7 +18,8 @@
     <p>Amazon shipping calculator</p>
 
     <input class="js-cost-input" type="text" placeholder="cost of order "  onkeydown="
-    console.log('typing')
+    handleCostKeyDown(event);
+  
     ">
 
     <button onclick="
@@ -28,10 +29,28 @@
     <p class="total-cost"></p>
 
     <script>
+        String(25)
+        console.log('25' -5);
+        console.log('25' + 5);
 
-        function calculateTotal() {
+        window.document// window is a builtin object that represent the browser
+        window.console.log('window');// do the samething as the console.log
+        window.alert //same as teh alertobject used for getting popups
+        //  we dont have to type "window." JavaScript will automatically add it
+
+        function handleCostKeyDown()
+        {
+            if( event.key === 'Enter')
+        {
+            calculateTotal();
+        }
+
+        }
+
+        function calculateTotal(event)
+         {
             const inputElement = document.querySelector('.js-cost-input');
-            let cost = Number(inputElement.value);
+            let cost = Number(inputElement.value); //number function
        
             if (cost < 40) {
                 cost = cost + 10;
