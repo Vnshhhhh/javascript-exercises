@@ -17,7 +17,9 @@
 
     <p>Amazon shipping calculator</p>
 
-    <input class="js-cost-input" type="text" placeholder="cost of order">
+    <input class="js-cost-input" type="text" placeholder="cost of order "  onkeydown="
+    console.log('typing')
+    ">
 
     <button onclick="
         calculateTotal();
@@ -30,10 +32,9 @@
         function calculateTotal() {
             const inputElement = document.querySelector('.js-cost-input');
             let cost = Number(inputElement.value);
-          console.log(cost);
+       
             if (cost < 40) {
                 cost = cost + 10;
-                console.log(cost);
             }
 
             document.querySelector('.total-cost')
