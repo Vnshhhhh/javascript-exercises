@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9a to 9c</title>
+</head>
+
+<body>
+
+    <button>9a</button>
+    <button class="nineB">9b</button>
+
+    <button class="Heads-button"
+    onclick="headsTails('heads')">Heads</button>
+    <button class="Tails-button"
+    onclick="headsTails('tails')">Tails</button>
+    <p class="result"> you chose</p>
+
+
+
+
+
+    <script>
+        function headsTails(choice)  
+        {
+            document.querySelector('.result').innerHTML = `you chose ${choice}`;
+            
+        }
+
+        function nineAExercise() 
+        {
+            console.log(document.querySelector('button'));
+        }
+
+       
+    
+        function ninebExercise()
+         {
+            console.log(document.querySelector('.nineB').innerHTML = '9bdone');
+        }
+
+
+        nineAExercise();
+        ninebExercise();
+
+         
+    </script>
+
+</body>
+
+</html>
