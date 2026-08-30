@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9i</title>
+</head>
+<body>
+    <button class="showquantity"
+    onclick="showQuantity()"
+    >Show-Quantity</button>
+    <button class="addtocart"
+    onclick="addToCart()"
+    >Add to Cart</button>
+    <button
+    class="plustwo"
+    onclick="plusTwo()"
+    >+2</button> 
+    <button class="plusthree"
+    onclick="plusThree()"
+    >+3</button>
+    <button class="plusfour"
+    onclick="plusFour()"
+    >+4</button>
+    <button class="removal"
+    onclick="removeCart()"
+    >Remove from Cart</button>
+    <p class="cart-quantity"
+    ="itemQuantity()"></p>
+    <button
+    class="remove-everything"
+    onclick="removeEverything()"
+    >Remove-everything</button>
+</body>
+<script>      
+    function itemQuantity() 
+    {
+    document.querySelector('.cart-quantity').innerHTML =
+        `Your cart quantity is ${quantity}`;
+    }
+
+  
+    let quantity =0;
+    function showQuantity()
+    {  
+      itemQuantity();   }
+
+    function addToCart()
+    {
+        quantity++;
+        console.log(quantity);
+       itemQuantity();
+    }
+    function  plusTwo()
+    {
+        quantity +=2;
+        itemQuantity();
+          console.log(quantity);
+    }
+    function plusThree()
+    {
+        quantity  += 3;
+          console.log(quantity);
+           itemQuantity();
+    }
+    function plusFour()
+    {
+        quantity +=4;
+          console.log(quantity);
+           itemQuantity();
+    }
+    function removeCart()
+    { quantity--;
+        if(quantity<=0)
+        {
+            quantity  = 0;
+             console.log(quantity);
+        }
+       
+        
+} 
+function removeEverything()
+        {
+          quantity = 0;
+            itemQuantity();
+            console.log(quantity);
+        }
+</script>
+</html>
