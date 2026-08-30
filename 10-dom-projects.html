@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-PROJECTS</title>
+    <link rel="stylesheet" href="css/10-dom.css">
+</head>
+
+<body>
+
+    <p class="youtube">YouTube Subscribe Button</p>
+
+    <button class="js-subscribe-button" onclick="
+        subscirbe();
+    ">Subscribe</button>
+
+    <p class="amazon-title
+    ">Amazon shipping calculator</p>
+
+    <input class="js-cost-input" type="text" placeholder="cost of order "  onkeydown="
+    handleCostKeyDown(event);
+  
+    ">
+
+    <button class="calculate
+    " onclick="
+        calculateTotal();
+    ">Calculate</button>
+
+    <p class="total-cost"></p>
+
+    <script>
+        String(25)
+        console.log('25' -5);
+        console.log('25' + 5);
+
+        window.document// window is a builtin object that represent the browser
+        window.console.log('window');// do the samething as the console.log
+        window.alert //same as teh alertobject used for getting popups
+        //  we dont have to type "window." JavaScript will automatically add it
+
+        function handleCostKeyDown()
+        {
+            if( event.key === 'Enter')
+        {
+            calculateTotal();
+        }
+
+        }
+
+        function calculateTotal(event)
+         {
+            const inputElement = document.querySelector('.js-cost-input');
+            let cost = Number(inputElement.value); //number function
+       
+            if (cost < 40) {
+                cost = cost + 10;
+            }
+
+            document.querySelector('.total-cost')
+                .innerHTML = `$${cost}`;
+        }
+
+        function subscirbe() {
+            const buttonElement = document.querySelector('.js-subscribe-button');
+
+            if (buttonElement.innerText === 'Subscribe') {
+                buttonElement.innerHTML = 'Subscribed';
+            }
+            else {
+                buttonElement.innerHTML = 'Subscribe';
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
