@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9h-exercise</title>
+</head>
+<body>
+    <input type="text" 
+    placeholder="type-something" 
+    onkeyup="textPrint()">
+    <!--use of the new event called onkeyup-->
+
+   
+    
+    <p class="typed-text"></p>
+    <!--empty so that input can printed in this tag-->
+  
+    <script>
+        let text = ''; 
+        /* used empty stirng so that when te values in given thatt can printed and saved within this variable*/
+        function textPrint()
+        { text =document.querySelector('input').value;/* here we have set that the variable text inputs value will be taken from the value inside the input textbox
+        we have used document.queryselector of select the input tag and then used ,value to get  the value within it */
+
+            document.querySelector('.typed-text')/* here we have used dosument.queryselector so that we can use the class  named .typed-text */
+            .innerHTML = `you typed ${text}`;/* here we have used innerHTML with in the queryselector so that we can modify the inner html of the .typed texted class of <p> tag which is emppty and 
+                also we have used back ticks so that we can use ${} and print the text variable  in the page*/
+        }
+    </script>
+    
+</body>
+</html>
