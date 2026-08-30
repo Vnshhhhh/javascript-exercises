@@ -7,8 +7,14 @@
 </head>
 <body>
 
-    <input type="text" placeholder="Enter your Name" class="namePrint">
-    <button onclick="nameDisplay()">Submit</button>
+    <input type="text" 
+    placeholder="Enter your Name" 
+    class="namePrint" 
+    onkeydown="if(event.key === 'Enter') nameDisplay()">
+
+   
+
+    <button onclick=" nameDisplay()">Submit</button>
 
     <script>
         function nameDisplay()
