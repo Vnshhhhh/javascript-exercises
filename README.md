@@ -1,68 +1,73 @@
- ```text
-┌─────┐
-│ JS  │
-└─────┘
-```
-
-# JavaScript Exercises
+ # JavaScript Exercises
 
 Learning JavaScript through exercises, projects, and hands-on practice.
 
+---
+
 ## 📚 Topics Covered
 
-### JavaScript Fundamentals
+### 🟨 Fundamentals
 
-1. **Variables**
-2. **Numbers & Math**
-3. **Strings**
-4. **Boolean Values**
-5. **Operators**
+- 📦 **Variables**
+- 🔢 **Numbers & Math**
+- 🔤 **Strings**
+- 🔘 **Boolean Values**
+- ⚙️ **Operators**
+  - Conditional operators
+  - Comparison operators
+  - Logical operators
+- 🧩 **Functions & Parameters**
+- ✅ **Truthy & Falsy Values**
+- ⭕ **`null` Value**
+- 🛠️ **Methods**
+- 📦 **Auto-boxing**
 
-   * Conditional operators
-   * Comparison operators
-   * Logical operators
-6. **Functions & Parameters**
-7. **Truthy & Falsy Values**
-8. **`null` Value**
-9. **Methods**
-10. **Auto-boxing**
+### 🔀 Conditional Logic
 
-### Conditional Logic
+- 🔍 **`if...else` Shortcuts**
+  - Ternary operator
+  - Guard operator
+  - Default operator
 
-11. **`if...else` Shortcuts**
+### 🗃️ Arrays, Objects & Data
 
-    * Ternary operator
-    * Guard operator
-    * Default operator
+- 📚 **Arrays**
+- 🔁 **Array Methods**
+- 🔄 **Loops**
+  - `for` loop
+  - `while` loop
+- 🧱 **Objects**
+- ✨ **Object Shortcuts**
+- 🔗 **Comparing Objects**
+  - Same reference
+  - Different reference
+- 📋 **JSON**
+- 💾 **Local Storage**
 
-### Objects & Data
+### 🌐 DOM & Browser
 
-12. **Objects**
-13. **Object Shortcuts**
-14. **Comparing Objects**
+- 🌳 **DOM (Document Object Model)**
+- 📄 **`document`**
+- 🎯 **`querySelector()`**
+- ✏️ **`innerHTML`**
+- ⌨️ **`onkeydown`**
+- 🪟 **`window`**
+- 🐛 **`console` & Popups**
+- 🔄 **Dynamic Updates**
 
-    * Same reference
-    * Different reference
-15. **JSON** — Working with JavaScript Object Notation
-16. **Local Storage** — Saving data in the browser
+---
 
-### DOM & Browser
+## 🛠️ Projects
 
-17. **DOM (Document Object Model)**
+- 🧮 **Calculator** — Building a calculator using HTML, CSS & JavaScript
+- ✊ **Rock Paper Scissors** — Applying JavaScript logic and conditional statements
+- 🛒 **HTML, CSS & JavaScript Projects** — Combining structure, styling, and functionality
+- 📝 **Todo List** — Working with arrays, loops, DOM manipulation, and user input
 
-    * **`document`** — Representing and interacting with the webpage
-    * **`querySelector()`** — Selecting HTML elements
-    * **`innerHTML`** — Modifying HTML content
-    * **`onkeydown`** — Handling keyboard interactions
-    * **`window`** — Representing the browser environment
-    * **`console` & popups** — Using browser debugging and popup functions
-    * **Dynamic updates** — Changing webpage content with JavaScript
+---
 
-### Projects
+## 🎯 Goal
 
-18. **Calculator** — Building a calculator using HTML, CSS & JavaScript
-19. **Rock Paper Scissors** — Applying JavaScript logic and conditional statements
-20. **HTML, CSS & JavaScript** — Combining structure, styling, and functionality
+Build a strong foundation in JavaScript through **practice → projects → problem solving**.
 
-```
-```
+> **Learn. Build. Repeat.**
