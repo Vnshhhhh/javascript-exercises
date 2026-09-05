@@ -25,7 +25,7 @@ function increaseByOne(arr) {
     for (let i = 0; i < arr.length; i++) {
 
         let number = arr[i];
-
+w
         let increasedNumber = number + 1;
 
         newArr.push(increasedNumber);
@@ -38,9 +38,12 @@ function increaseByOne(arr) {
 let arr = [1, 2, 3];
 
 let result = increaseByOne(arr);
+ 
 
 
 
 counter();
 evenAndOdd();
 console.log(result);
+
+// here i have solved form -> 11-d to 11-h exercise
